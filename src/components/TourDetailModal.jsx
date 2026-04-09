@@ -38,7 +38,7 @@ const TourDetailModal = ({ tour, onClose }) => {
       />
 
       {/* Modal Container */}
-      <div className="relative w-full max-w-5xl max-h-[90vh] bg-white rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row animate-in zoom-in-95 duration-300">
+      <div className="relative w-full max-w-5xl max-h-[90vh] bg-white rounded-[1rem] shadow-2xl overflow-hidden flex flex-col md:flex-row animate-in zoom-in-95 duration-300">
         
         {/* Close Button */}
         <button 

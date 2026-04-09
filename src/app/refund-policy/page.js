@@ -13,7 +13,7 @@ export default function RefundPolicyPage() {
         </h1>
         <div className="w-24 h-2 bg-purple-600 rounded-full mb-8" />
         <p className="text-zinc-500 text-lg max-w-2xl leading-relaxed">
-          At VoyageVoyager, we strive to be transparent and fair in our booking practices. 
+          At GoTripBooking, we strive to be transparent and fair in our booking practices. 
           Please review our standard policies for cancellations, modifications, and refunds.
         </p>
       </div>

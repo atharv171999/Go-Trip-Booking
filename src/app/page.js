@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Play, Plane, ArrowRight, Heart, Globe, Shield } from 'lucide-react';
 import DestinationCard from '@/components/DestinationCard';
+import ContactForm from '@/components/ContactForm';
 import { destinations } from '@/data/destinations';
 
 export default function Home() {
@@ -196,6 +197,49 @@ export default function Home() {
               See More Destinations
               <ArrowRight size={20} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="bg-zinc-50 py-24 md:py-32 px-6 md:px-12 relative overflow-hidden">
+        {/* Decorative Background Element */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-100/50 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2" />
+        
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+          <div className="space-y-10">
+            <div>
+              <div className="inline-flex items-center gap-2 bg-white text-purple-600 px-5 py-2 rounded-full text-xs font-black uppercase tracking-widest shadow-sm mb-6 border border-purple-100">
+                Start Your Journey
+              </div>
+              <h2 className="text-4xl md:text-6xl font-black text-zinc-900 tracking-tight leading-tight mb-6">
+                Ready to explore <br />
+                the <span className="text-purple-600 italic font-serif">Unexplored</span>?
+              </h2>
+              <p className="text-zinc-500 text-lg md:text-xl leading-relaxed font-medium max-w-lg">
+                Our destination experts are ready to craft your perfect itinerary. 
+                Fill out the form.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {[
+                { title: 'Local Expertise', desc: 'Sourced by native guides' },
+                { title: 'Best Price', desc: 'Guaranteed local rates' },
+                { title: '24/7 Support', desc: 'Always by your side' },
+                { title: 'Secured Payments', desc: 'Safe & encrypted checkouts' }
+              ].map((item, idx) => (
+                <div key={idx} className="flex flex-col gap-2">
+                  <div className="h-1 w-8 bg-purple-600 rounded-full" />
+                  <h4 className="font-bold text-zinc-900 uppercase text-xs tracking-wider">{item.title}</h4>
+                  <p className="text-zinc-400 text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="animate-in fade-in slide-in-from-right-8 duration-700">
+            <ContactForm isCompact={true} />
           </div>
         </div>
       </section>

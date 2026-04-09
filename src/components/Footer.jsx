@@ -83,15 +83,15 @@ const Footer = () => {
           <ul className="flex flex-col gap-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-purple-600 flex-shrink-0 mt-0.5" />
-              <span>123 Wanderlust Way, Adventure City, AC 54321, US</span>
+              <span>172 Shubham Nagar, Sch. No. 51, Sangam Nagar, Indore, MP 452006</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-purple-600" />
-              <a href="mailto:hello@gotripbooking.com" className="hover:text-purple-600 transition-colors">hello@gotripbooking.com</a>
+              <a href="mailto:support@gotripbooking.com" className="hover:text-purple-600 transition-colors">support@gotripbooking.com</a>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-purple-600" />
-              <span>+1 (234) 567-8900</span>
+              <span>+91 72238 23501</span>
             </li>
           </ul>
         </div>
@@ -99,7 +99,7 @@ const Footer = () => {
 
       {/* Copyright Bar */}
       <div className="bg-zinc-100 py-6 px-4 text-center text-xs sm:text-sm text-zinc-500 font-medium">
-        <span>© 2026 Copyright: </span>
+        <span>© 2024 Copyright: </span>
         <Link href="/" className="font-bold text-zinc-900 hover:text-purple-600 transition-colors uppercase">
           gotripbooking.com
         </Link>

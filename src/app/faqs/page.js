@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, HelpCircle, ShieldCheck, Wallet, Map, PhoneCall } from 'lucide-react';
+import Link from 'next/link';
 
 const faqData = [
   {
@@ -9,7 +10,7 @@ const faqData = [
     icon: <Wallet className="text-purple-600" size={24} />,
     questions: [
       {
-        q: 'How do I book a tour with VoyageVoyager?',
+        q: 'How do I book a tour with GoTripBooking?',
         a: 'You can book directly through our website by selecting your destination and clicking "Book Now". Alternatively, you can contact our travel consultants via WhatsApp or Email for a customized quotation.'
       },
       {
@@ -95,7 +96,7 @@ export default function FAQsPage() {
         </h1>
         <div className="w-24 h-2 bg-purple-600 rounded-full mb-8" />
         <p className="text-zinc-500 text-lg max-w-2xl leading-relaxed">
-          Everything you need to know about booking your dream trip with VoyageVoyager. 
+          Everything you need to know about booking your dream trip with GoTripBooking. 
           Can't find what you're looking for? Reach out to our 24/7 support.
         </p>
       </div>
@@ -120,9 +121,13 @@ export default function FAQsPage() {
             
             <div className="mt-12 pt-8 border-t border-zinc-200">
               <p className="text-zinc-500 text-sm mb-4 italic">Still have questions?</p>
+              <Link
+              href="/contact"
+              >
               <button className="w-full bg-zinc-900 text-white px-6 py-4 rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-purple-600 transition-all">
                 <PhoneCall size={18} /> Contact Support
               </button>
+              </Link>
             </div>
           </div>
         </div>

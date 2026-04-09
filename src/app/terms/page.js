@@ -16,7 +16,7 @@ export default function TermsPage() {
 
       {/* Intro Section */}
       <div className="max-w-4xl mx-auto mb-16 p-8 bg-zinc-50 rounded-[2.5rem] border border-zinc-100 italic text-zinc-600 leading-relaxed text-center">
-        These Terms and Conditions ("T&C") set forth the legally binding framework between you ("User," "You," or "Your") and <strong>VoyageVoyager</strong> for accessing or using our website, applications, or booking any travel services. By using our Platform, You acknowledge that you have read, understood, and agreed to these T&C.
+        These Terms and Conditions ("T&C") set forth the legally binding framework between you ("User," "You," or "Your") and <strong>GoTripBooking</strong> for accessing or using our website, applications, or booking any travel services. By using our Platform, You acknowledge that you have read, understood, and agreed to these T&C.
       </div>
 
       {/* Main Content Grid */}
@@ -31,7 +31,7 @@ export default function TermsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 bg-white border border-zinc-100 rounded-3xl shadow-sm">
               <h4 className="font-bold text-zinc-900 mb-2 uppercase text-xs tracking-wider text-purple-600">User / You</h4>
-              <p className="text-zinc-600 text-sm leading-relaxed">Any person visiting, accessing, or making a Booking through VoyageVoyager.</p>
+              <p className="text-zinc-600 text-sm leading-relaxed">Any person visiting, accessing, or making a Booking through GoTripBooking.</p>
             </div>
             <div className="p-6 bg-white border border-zinc-100 rounded-3xl shadow-sm">
               <h4 className="font-bold text-zinc-900 mb-2 uppercase text-xs tracking-wider text-purple-600">Booking</h4>
@@ -64,16 +64,16 @@ export default function TermsPage() {
               <div className="border-l-2 border-purple-600 pl-6">
                 <h3 className="font-black text-lg mb-2">Part B</h3>
                 <p className="text-zinc-400 text-sm leading-relaxed uppercase tracking-widest font-bold mb-4">Operated Tour Packages</p>
-                <p className="text-zinc-300 text-sm">Multi-service itineraries operated and coordinated by VoyageVoyager.</p>
+                <p className="text-zinc-300 text-sm">Multi-service itineraries operated and coordinated by GoTripBooking.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* 3. Role of VoyageVoyager */}
+        {/* 3. Role of GoTripBooking */}
         <section className="bg-purple-50 p-10 md:p-16 rounded-[3rem]">
           <h2 className="text-2xl font-black text-zinc-900 mb-8 border-b border-purple-100 pb-4">
-            ROLE OF VOYAGEVOYAGER
+            ROLE OF GOTRIPBOOKING
           </h2>
           <div className="space-y-8">
             <div>
@@ -98,7 +98,7 @@ export default function TermsPage() {
           <div className="space-y-8">
             <div className="group">
               <h3 className="text-xl font-bold text-zinc-900 mb-3">B3. FLIGHT MOVEMENT</h3>
-              <p className="text-zinc-600 text-sm leading-relaxed">VoyageVoyager facilitates flight bookings; however, operations remain governed by individual airline policies regarding delays, baggage, and cancellations.</p>
+              <p className="text-zinc-600 text-sm leading-relaxed">GoTripBooking facilitates flight bookings; however, operations remain governed by individual airline policies regarding delays, baggage, and cancellations.</p>
             </div>
 
             <div className="group">
@@ -130,7 +130,7 @@ export default function TermsPage() {
             These terms are governed by the laws of our primary operating jurisdiction. Disputes shall be subject to exclusive jurisdiction of the courts designated in your final Quotation.
           </p>
           <div className="mt-12 text-center text-zinc-400 text-xs italic">
-            © 2026 VoyageVoyager. All rights reserved. REVISIONS: We may update these T&C at any time. Continued use of the Platform constitutes acceptance of the new terms.
+            © 2024 GoTripBooking. All rights reserved. REVISIONS: We may update these T&C at any time. Continued use of the Platform constitutes acceptance of the new terms.
           </div>
         </section>
 
